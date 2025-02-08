@@ -1,32 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Baggage Check</title>
-    <script>
-        function doit() {
-            let weight = prompt("Enter your baggage weight in Kg:");
-            if (weight !== null) {
-                weight = parseFloat(weight);
-                if (isNaN(weight)) {
-                    alert("Please enter a valid number.");
-                } else if (weight > 15) {
-                    alert("Your baggage is over the weight limit!");
-                } else {
-                    alert("Your baggage is within the limit.");
-                }
+<html>
+    <head>
+        <script>
+            alert("Hi!")
+            let doit=()=>{
+                alert=("done");
             }
-        }
-    </script>
-</head>
-<body>
-    <p>Hello World!</p>
-    <p>Exercise 1</p>
-    <p>Create a page with a button and input. This should prompt the user for their baggage weight.</p>
-    <p>When the user clicks submit:</p>
-    <p>If the weight is over the limit of 15 Kg, it should alert the user that the baggage is overweight.</p>
 
-    <button onclick="doit()">Check Baggage</button>
-</body>
+
+        </script>
+    
+    </head>
+    <body>
+        <p>Body Text</p>
+        <p>"Hello World"</p>
+
+        <p>Excersie 1:</p>
+        <p>Create a page with a button and input.</p>
+        <p>When the user click submit,</p>
+        <p>If the weight is over 15kg, user should get the alert that baggage is overweight.</p>
+        <p>The prompt: <button> onclick="doIt()"</button></p>p
+    </body>
 </html>
